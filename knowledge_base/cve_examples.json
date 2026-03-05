@@ -1,0 +1,37 @@
+[
+  {
+    "cve_id": "CVE-2021-3156",
+    "cwe": "CWE-120",
+    "project": "sudo",
+    "description": "Heap-based buffer overflow in sudoedit via unescaped backslashes.",
+    "impact": "Local privilege escalation to root."
+  },
+  {
+    "cve_id": "CVE-2024-3094",
+    "cwe": "CWE-506",
+    "project": "xz-utils",
+    "description": "Supply chain backdoor injected into xz compression library.",
+    "impact": "Remote code execution via sshd."
+  },
+  {
+    "cve_id": "CVE-2014-0160",
+    "cwe": "CWE-120",
+    "project": "openssl",
+    "description": "Heartbleed: buffer over-read in TLS heartbeat extension.",
+    "impact": "Memory disclosure, credential theft."
+  },
+  {
+    "cve_id": "CVE-2016-5195",
+    "cwe": "CWE-362",
+    "project": "linux-kernel",
+    "description": "Dirty COW: race condition in copy-on-write mechanism.",
+    "impact": "Local privilege escalation."
+  },
+  {
+    "cve_id": "CVE-2017-0144",
+    "cwe": "CWE-120",
+    "project": "windows-smb",
+    "description": "EternalBlue: buffer overflow in SMBv1.",
+    "impact": "Remote code execution (WannaCry ransomware)."
+  }
+]
